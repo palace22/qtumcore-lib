@@ -1,16 +1,104 @@
 {
-  "name": "qtumcore-lib",
-  "version": "0.0.1",
-  "description": "A pure and powerful JavaScript QTUM library.",
-  "author": "QTUM <foundation@qtum.org>",
-  "main": "index.js",
-  "scripts": {
-    "lint": "gulp lint",
-    "test": "gulp test",
-    "coverage": "gulp coverage",
-    "build": "gulp"
+  "_from": "git+https://github.com/palace22/qtumcore-lib.git#master",
+  "_id": "qtumcore-lib@0.0.1",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/qtumcore-lib",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "qtumcore-lib@git+https://github.com/palace22/qtumcore-lib.git#master",
+    "name": "qtumcore-lib",
+    "escapedName": "qtumcore-lib",
+    "rawSpec": "git+https://github.com/palace22/qtumcore-lib.git#master",
+    "saveSpec": "git+https://github.com/palace22/qtumcore-lib.git#master",
+    "fetchSpec": "https://github.com/palace22/qtumcore-lib.git",
+    "gitCommittish": "master"
   },
+  "_requiredBy": [
+    "/",
+    "/qtumcore-node"
+  ],
+  "_resolved": "git+https://github.com/palace22/qtumcore-lib.git#e07db51c8665c9bcef001ac9cd956701dda8f4c9",
+  "_shrinkwrap": {
+    "name": "bitcore",
+    "version": "0.13.19",
+    "dependencies": {
+      "bn.js": {
+        "version": "2.0.4",
+        "from": "bn.js@=2.0.4",
+        "resolved": "https://registry.npmjs.org/bn.js/-/bn.js-2.0.4.tgz"
+      },
+      "bs58": {
+        "version": "2.0.0",
+        "from": "bs58@=2.0.0",
+        "resolved": "https://registry.npmjs.org/bs58/-/bs58-2.0.0.tgz"
+      },
+      "buffer-compare": {
+        "version": "1.0.0",
+        "from": "buffer-compare@=1.0.0",
+        "resolved": "https://registry.npmjs.org/buffer-compare/-/buffer-compare-1.0.0.tgz"
+      },
+      "elliptic": {
+        "version": "3.0.3",
+        "from": "elliptic@=3.0.3",
+        "resolved": "https://registry.npmjs.org/elliptic/-/elliptic-3.0.3.tgz",
+        "dependencies": {
+          "brorand": {
+            "version": "1.0.5",
+            "from": "brorand@^1.0.1",
+            "resolved": "https://registry.npmjs.org/brorand/-/brorand-1.0.5.tgz"
+          },
+          "hash.js": {
+            "version": "1.0.3",
+            "from": "hash.js@=1.0.3",
+            "resolved": "https://registry.npmjs.org/hash.js/-/hash.js-1.0.3.tgz"
+          }
+        }
+      },
+      "inherits": {
+        "version": "2.0.1",
+        "from": "inherits@=2.0.1",
+        "resolved": "https://registry.npmjs.org/inherits/-/inherits-2.0.1.tgz"
+      },
+      "lodash": {
+        "version": "3.10.1",
+        "from": "lodash@=3.10.1",
+        "resolved": "https://registry.npmjs.org/lodash/-/lodash-3.10.1.tgz"
+      }
+    }
+  },
+  "_spec": "qtumcore-lib@git+https://github.com/palace22/qtumcore-lib.git#master",
+  "_where": "/mnt/18D8AC37D8AC1552/Vivido/1TrueID/OtiRepo/otinode/myotinode",
+  "author": {
+    "name": "QTUM",
+    "email": "foundation@qtum.org"
+  },
+  "browser": {
+    "request": "browser-request"
+  },
+  "bugs": {
+    "url": "https://github.com/qtumproject/qtumcore-lib/issues"
+  },
+  "bundleDependencies": false,
   "contributors": [],
+  "dependencies": {
+    "bn.js": "=5.1.3",
+    "bs58": "=2.0.0",
+    "buffer-compare": "=1.0.0",
+    "elliptic": "=3.0.3",
+    "inherits": "=2.0.1",
+    "lodash": "=3.10.1"
+  },
+  "deprecated": false,
+  "description": "A pure and powerful JavaScript QTUM library.",
+  "devDependencies": {
+    "brfs": "^1.2.0",
+    "chai": "^1.10.0",
+    "gulp": "^3.9.1",
+    "sinon": "^1.13.0"
+  },
+  "homepage": "https://github.com/qtumproject/qtumcore-lib#readme",
   "keywords": [
     "qtum",
     "bitcoin",
@@ -28,26 +116,18 @@
     "bip70",
     "multisig"
   ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "qtumcore-lib",
   "repository": {
     "type": "git",
-    "url": "https://github.com/qtumproject/qtumcore-lib.git"
+    "url": "git+https://github.com/qtumproject/qtumcore-lib.git"
   },
-  "browser": {
-    "request": "browser-request"
+  "scripts": {
+    "build": "gulp",
+    "coverage": "gulp coverage",
+    "lint": "gulp lint",
+    "test": "gulp test"
   },
-  "dependencies": {
-    "bn.js": "=5.1.3",
-    "bs58": "=2.0.0",
-    "buffer-compare": "=1.0.0",
-    "elliptic": "=3.0.3",
-    "inherits": "=2.0.1",
-    "lodash": "=3.10.1"
-  },
-  "devDependencies": {
-    "brfs": "^1.2.0",
-    "chai": "^1.10.0",
-    "gulp": "^3.9.1",
-    "sinon": "^1.13.0"
-  },
-  "license": "MIT"
+  "version": "0.0.1"
 }
